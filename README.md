@@ -8,8 +8,8 @@ The dataset used for this project contains information about Uber rides, includi
 - Pickup & Drop-off locations
 - Timestamps (Date & Time)
 - Trip duration
-- Fare amount
-- Passenger count
+- Start date
+- end date
 
 ## 🛠 Tools & Technologies
 - **Excel**: Data cleaning, preliminary analysis, and pivot tables.
@@ -41,14 +41,13 @@ Uber-Data-Analysis/
 ## 📚 How to Use This Project
 1. **Explore the dataset** (`Data/uber_data.csv`) using Excel or Python.
 2. **Run SQL queries** (`Queries/sql_queries.sql`) to extract insights.
-3. **Use Python notebooks** (`Notebooks/`) for deeper analysis and visualizations.
-4. **Check Power BI dashboards** (`Dashboards/power_bi_dashboard.pbix`) for an interactive summary of findings.
+3. **Check Power BI dashboards** (`Dashboards/power_bi_dashboard.pbix`) for an interactive summary of findings.
 
 ## 🔧 Installation & Requirements
 To run the analysis, ensure you have the following installed:
 - Python 3.x
 - Jupyter Notebook
-- Pandas, Matplotlib, Seaborn
+- Pandas
 - SQL Database (MySQL / PostgreSQL)
 - Power BI Desktop
 
